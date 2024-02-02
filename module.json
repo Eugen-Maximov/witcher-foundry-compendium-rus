@@ -1,0 +1,62 @@
+{
+  "id": "witcher-helper",
+  "title": "Witcher Helper",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "JamLim",
+      "discord": "jam_lim"
+    }
+  ],
+  "packs": [
+    {
+      "name": "witcher-helper",
+      "label": "Witcher Effects",
+      "path": "packs/witcher-helper",
+      "type": "Item",
+      "system": "TheWitcherTRPG",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "witcher-monsters",
+      "label": "Witcher Monsters",
+      "path": "packs/witcher-monsters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "TheWitcherTRPG"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "TheWitcherTRPG",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "fvtt-token-action-hud-thewitchertrpg",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "witcher-trpg-compendiums",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
