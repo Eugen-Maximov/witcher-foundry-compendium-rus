@@ -5,4 +5,4 @@ Compendium for Foundry VTT - The Witcher TTRPG:
 3) Эффекты боя
 4) Социальные эффекты
 
-URL для установки: https://github.com/Eugen-Maximov/witcher-foundry-compendium-rus/releases/download/v1.0/module.json
+URL для установки: https://github.com/Eugen-Maximov/witcher-foundry-compendium-rus/releases/download/latest/module.json
