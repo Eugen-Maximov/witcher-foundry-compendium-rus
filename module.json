@@ -2,6 +2,10 @@
   "id": "witcher-helper",
   "title": "Witcher Helper",
   "version": "1.0.0",
+  "description": "Русский компендиум для https://github.com/AnthonyMonette/TheWitcherTRPG",
+  "url": "https://github.com/Eugen-Maximov/witcher-foundry-compendium-rus",
+  "download": "https://github.com/Eugen-Maximov/witcher-foundry-compendium-rus/releases/latest/download/module.zip",
+  "manifest": "https://github.com/Eugen-Maximov/witcher-foundry-compendium-rus/releases/latest/download/module.json",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
